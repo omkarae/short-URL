@@ -19,7 +19,8 @@ app.get('/', async (req, res) => {
 app.post('/shortUrls', async (req, res) => {
   await ShortUrl.create({ full: req.body.fullUrl });
   const shortUrl = await ShortUrl.findOne({ full: req.body.fullUrl });
-  res.render('short', { shortUrl: shortUrl });
+  data = req.headers.host;
+  res.render('short', { shortUrl: shortUrl,data:data});
 })
 
 app.get('/:shortUrl', async (req, res) => {

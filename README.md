@@ -19,8 +19,6 @@
   <img src="https://github.com/omkarae/short-URL/blob/main/1.png" alt="UI" height=200px></img>
   <img src="https://github.com/omkarae/short-URL/blob/main/2.png" alt="Response" height=200px></img>
   <img src="https://github.com/omkarae/short-URL/blob/main/3.png" alt="UI" height=200px></img>
-  <img src="https://github.com/omkarae/short-URL/blob/main/4.png" alt="Response" height=200px></img>
-  <img src="https://github.com/omkarae/short-URL/blob/main/5.png" alt="UI" height=200px></img>
 </p>
 
 

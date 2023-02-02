@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 const app = express()
 
-mongoose.connect(process.env.DB_URI, {
+mongoose.connect(process.env.LOCAL_URI, {
   useNewUrlParser: true, useUnifiedTopology: true
 })
 
@@ -12,7 +12,6 @@ app.set('view engine', 'ejs')
 app.use(express.urlencoded({ extended: false }))
 
 app.get('/', async (req, res) => {
-  
   res.render('index')
 })
 
